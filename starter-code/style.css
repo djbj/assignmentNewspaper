@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: #f2f1f4;
   color: #19171c;
@@ -21,3 +25,145 @@ header {
 .logo img {
   width: 60px;
 }
+
+.heading,
+.author {
+  display: inline;
+  color: black; 
+  background-color: white;
+}
+
+.article1 {
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  padding-top: 100%;
+  background-image: url("https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F06f6e380cad3411b65665e47e5dbc348_1510153825858.png?fit=crop&h=1200&ixlib=php-1.1.0&w=1200&s=3b77c5808fc526fc60a6a7844f67a4bb");
+  background-size: cover;
+  position: relative;
+
+
+}
+
+.article2 {
+  width: 100%;
+  height: 100%;
+  padding-top: 100%;
+  background-image: url("https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F873d3e5465b87cc83af8a0c2d0ddc064_1509706962790.png?fit=crop&h=500&ixlib=php-1.1.0&w=500&s=cff04e9c7ad5c4db95fba46328d65c3f");
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+
+}
+
+.article3 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F97e10f56c7b2a7a6bbc890f3f0489305_1509547276895.png?fit=crop&h=500&ixlib=php-1.1.0&w=500&s=0a372724a68bd70545235ada6ca206c8");
+  background-size: cover;
+  position: relative;
+}
+
+.article4 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F10%2Ffa4e54d4e08bfe6bbbef18d2f2871ccf_1507273153060.jpg?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=2cf1ca00dd5ad2c8e9f3dcb78886173c");
+  background-size: cover;
+  position: relative;
+}
+
+.article5 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F10%2F7d1a1eb1aaac67271afd643aa0704271_1509350916030.jpg?fit=crop&h=1200&ixlib=php-1.1.0&w=1200&s=390127c55dd912d5497f060a95cf4a2c");
+  background-size: cover;
+  position: relative;
+}
+
+.article6 {
+  width: 100%;
+  padding-top: 100%;
+  background-image: url("https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F10%2F7f006dbe4f59f1aa38abd0c2b61e8605_1509456042818.png?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=ffc95937739f5efca4eef15c1439556c");
+  background-size: cover;
+  position: relative;
+}
+
+h1, h4{
+  display: inline;
+  font-size: 30px;
+  color: black;
+  background-color: black;
+}
+
+.author {
+  font-size: 15px;
+}
+
+@media (min-width: 767px) {
+  .articles  {
+    width: 33%;
+  }
+}
+
+@media (max-width: 767px) {
+  .articles {
+    width: 100%;
+  }
+}
+
+
+
+/*.article {
+  display: block;
+  background-image: url("https://www.islandartcards.com/shop/media/Calendars/xlrgCALW83.jpg");
+  background-size: cover;
+  width: 200px;
+  heigh: 200px;
+  overflow:  inherit;
+}*/
+
+
+
+/*.box {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+
+}*/
+
+
+/*.boxx {
+  /*display: inline-block;*/
+  /*background-size: cover;
+  background-size: 99%;
+  background-image: url("https://imgix.kitcdn.se/https%3A%2F%2Fstatic.kitcdn.se%2Fcws%2F2017%2F11%2F4766fb5742f817ef4036985b4ef4bd64_1510140149565.jpg?fit=crop&h=840&ixlib=php-1.1.0&w=840&s=7716b2c51a0bed20776c9f995e834b1c");
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+/*}*//*/
+
+
+/*.outer-box .box h4 {
+  position: relative;
+  bottom: 0;
+  color:white;
+  background-color: yellow;
+  overflow: hidden;
+}*/
+
+
+
+/*@media (min-width: 767px) {
+  h4 {
+    background-color: red;
+  }
+}*/
+
+/*.image2{
+
+  width: 100%;
+  padding-top: 100%
+  background: url()
+  background-size: cover;
+  position: relative;
+}*/
